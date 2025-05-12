@@ -1,7 +1,7 @@
 import 'persona.dart';
 
 main() {
-  final persona = new Persona();
+  final persona = new Persona(33, nombre: 'Fernando');
   persona
     ..nombre = "Fernando"
     //persona.age = 34;
