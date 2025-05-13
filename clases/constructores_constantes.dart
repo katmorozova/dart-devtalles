@@ -14,12 +14,12 @@ void main(List<String> args) {
   //print(sanFrancisco2 == sanFrancisco3); //false
 
 
-  const sanFrancisco4 = const Location(18.2323, 39.9000);
-  const sanFrancisco5 = const Location(18.2323, 39.9001);
-  const sanFrancisco6 = const Location(18.2323, 39.9001);
+  //const sanFrancisco4 = const Location(18.2323, 39.9000);
+  //const sanFrancisco5 = const Location(18.2323, 39.9001);
+  //const sanFrancisco6 = const Location(18.2323, 39.9001);
 
-  print(sanFrancisco4 == sanFrancisco5); //false
-  print(sanFrancisco5 == sanFrancisco6); //true
+  //print(sanFrancisco4 == sanFrancisco5); //false
+  //print(sanFrancisco5 == sanFrancisco6); //true
 
 
 }
