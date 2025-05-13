@@ -28,6 +28,15 @@ class Persona {
 
   Persona(this.age, {this.nombre});
 
+  Persona.persona30(this.nombre) {
+    this.age = 30;
+  }
+
+  Persona.persona40(String nombre) {
+    this.age = 40;
+    this.nombre = nombre;
+  }
+
 //Metodos(funsiones)
   @override
   String toString() {
